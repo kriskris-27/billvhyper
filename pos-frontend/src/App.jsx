@@ -79,6 +79,7 @@ function ProtectedRoutes({ children }) {
   return children;
 }
 
+
 function App() {
   return (
     <Router>
@@ -86,5 +87,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
